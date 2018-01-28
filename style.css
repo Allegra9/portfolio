@@ -1,0 +1,203 @@
+/*social media icons, were only needed for CODEPEN*/
+
+/*
+@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+*/
+
+a {
+    text-decoration: none;
+    color: #c1a341;
+}
+p > a:hover{
+    color: #c1a341;
+    text-decoration:  underline;
+}
+/*underlines when inside a sentence, i.e.,the one in the footer*/
+
+h1,h2,h3,h4,h5,h6 {
+    margin:  1% 0 1% 0;
+}
+
+ul {
+    padding:0;
+    list-style: none;
+}
+
+.social-icons li {
+    vertical-align: top;
+    display: inline;
+    height: 100px;
+}
+.social-icons a {
+    color: #fff;
+    text-decoration: none;
+}
+.fa-instagram {
+    padding: 10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-instagram:hover {
+    background-color: #b323db;
+}
+
+.fa-github {
+    padding: 10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-github:hover {
+    background-color: #18b6ba;
+}
+
+.fa-free-code-camp {
+    padding: 10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-free-code-camp:hover {
+    background-color: #18b6ba;
+}
+
+.fa-codepen {
+    padding: 10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-codepen:hover {
+    background-color: #18b6ba;
+}
+
+.list-inline .social {
+    font-size: 30px;
+}
+
+/* .fa-linkedin {
+    padding:10px 14px;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition: .5s;
+    background-color: #322f30;
+}
+.fa-linkedin:hover {
+    background-color: #0073a4;
+}  in case I want to add it! */
+
+/*social media icons above, the links MUST BE pasted on the top of the page to work*/
+
+
+
+header {
+  background-color: #000;
+}
+
+nav {
+  padding: 2%;
+/*   position: fixed; */
+  /*when I did fixed position, it moved to the left and became transparent background for some reason, and looked shit on mobile*/
+}
+
+.intro {
+  background-color: #efe5a5;
+  width: 70%;
+  padding: 3%;
+  margin: 4% 15% 4% 15%;
+  border: solid;
+}
+
+h1 {
+  font-family: paralucent, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+}
+
+img {
+  width: 120%;
+  /*on purpose!*/
+}
+
+body {
+  background-color: #e8e4cc;
+}
+
+.placeholder-image {
+  width: 100%;
+  border: solid;
+}
+
+.noimg {
+    height: 60%;
+}
+
+.folio {
+  padding: 8%;
+}
+
+/*contact form*/
+.c-form {
+  padding: 8%;
+}
+ 
+.button{
+  color:#fff;
+  border:solid 2px #fff;
+  border-radius:50%;
+  display:inline-block;
+  width:50px;
+  height:50px;
+  text-align:center;
+  font-size:20px;
+  line-height:48px;
+  -webkit-transition:all .3s ease-in-out;
+  transition:all .3s ease-in-out;
+}
+
+.button:hover{
+    border:solid 2px #fff;
+    color:#722872;
+    background:#fff;
+  }
+
+.scroll-top {
+  margin-bottom: 2%;
+  margin-top: 2%
+}
+
+footer {
+  background-color: #000;
+  padding: 3%;
+  color:  #e8e4cc;
+  margin-bottom: -10%;
+}
+
+@media only screen 
+and (min-device-width : 300px) 
+and (max-device-width : 700px)
+{ 
+  .intro {
+  background-color: #efe5a5;
+  width: 90%;
+  padding: 3%;
+  margin: 5% 2% 2% 2%;
+  border: solid;
+  }
+}

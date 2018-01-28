@@ -1,0 +1,152 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <title>FCC Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0">
+    
+<!--1.LINK FOR BOOTSTRAP--> 
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    
+<!--2.LINK FOR ICONS-->   
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+<!--3.CSS-->
+    <!--shall I use reset CSS and what for?-->
+<!--<link href="reset.css" rel="stylesheet" type="text/css">    -->
+    
+<link href="style.css" rel="stylesheet" type="text/css">
+    
+    <!--also add Google Fonts?-->
+
+<!--4.5.6.7.should all be added at the end of BODY-->
+    
+<!--4.jQuery-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<!--5.this one for TETHER.IO-->
+<script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
+    
+<!--6.JS for BOOTSTRAP-->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    
+<!--7.link to JS-->
+<script src="scripts.js"></script>
+    
+</head>
+
+<header>
+  <nav class="">
+  <div class="container">
+    <div class="row justify-content-end">
+    <ul class="nav">
+    <!--justify-content-end makes the nav to be on the RIGHT SIDE-->
+    <li class="nav-item">
+      <a class="nav-link" href="#top">ABOUT</a>
+      </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#portfolio">PORTFOLIO</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#contact">CONTACT</a>
+    </li>
+      <div class="social-icons">
+          
+      <li><a href="#instagram" class="social-icon"> <i class="fa fa-instagram"></i></a></li>
+      <li><a href="https://github.com/Allegra9" target="_blank" class="social-icon">
+        <i class="fa fa-github"></i></a></li>
+      <li><a href="https://www.freecodecamp.org/allegra9" target="_blank"><i class="fa fa-free-code-camp"></i></a></li>
+      <li><a href="https://codepen.io/aukseallegra" target="_blank"><i class="fa fa-codepen" aria-hidden="true"></i></a></li> 
+<!--WHY FREE-CODE-CAMP'S ICON NOT SHOWING?-->    
+          
+</div>
+  
+  </ul> 
+        </div>
+  </div>
+  </nav>
+</header>
+
+<body>
+  
+  <div class="intro text-center">
+  <h1>Aukse Allegra</h1>
+  <p>Currently a FreeCodeCamp student! I am excited to learn and build more projects as I go. I am all about environment, I think there are too many of us on the planet, and women need to wake up and be themselves. I will add more when I am ready.</p> 
+    <img class="" src="http://straightwoo.com/wp-content/uploads/2016/01/mercuryfuck-800x533.jpg" alt="Audrey Hepburn">
+</div>
+  
+  <hr>
+  
+  <!--PORTFOLIO section starts here-->
+  
+    <div class="text-center folio">
+  <h1 id="portfolio">PORTFOLIO</h1>
+<div class="container">
+  <div class="row">
+    
+    <div class="col-sm-4">
+      <h4>Project 1</h4>
+      <img class="placeholder-image" src="img/LeoFoundation.png" alt="Tribute page to Leonardo DiCaprio Foundation">
+      <p>... is Tribute page to <a href="https://codepen.io/aukseallegra/full/JMbLpP/">Leonardo DiCaprio Foundation</a>, I totally admire the work they do to help save our planet.</p>
+    </div>
+    
+    <div class="col-sm-4">
+      <h4>Project 2</h4>
+       <img class="placeholder-image" src="img/PorftolioIMG.png" alt="Snapshot of my portfolio page">
+      <p>... is this Portfolio page right here!</p>
+    </div>
+    
+    <div class="col-sm-4">
+      <h4>Project 3</h4>  
+       <img class="placeholder-image noimg" src="http://www.super-effect.com/wp-content/uploads/2015/12/pojo-placeholder-5-1024x768.png" alt="placeholder coming soon">
+      <p>... is coming soon.</p>
+    </div>
+    
+  </div>
+  </div>
+  </div>
+  
+  
+  <hr>
+  
+  <!--here starts 'contact me' section-->
+  
+  <div class="container c-form">
+  <h4 id="contact">Contact me</h4>
+  <p></p>
+  <form>
+    <div class="form-group">
+      <label for="usr">Name:</label>
+      <input type="text" class="form-control" id="usr" required>
+    </div>
+    <div class="form-group">
+      <label for="email">Email:</label>
+      <input type="email" class="form-control" id="email" required>
+    </div>
+    <div class="form-group">
+      <label for="tel">Phone number:</label>
+      <input type="tel" class="form-control" id="tel" required>
+    </div>
+    <div class="form-group">
+  <label for="comment">Message:</label>
+  <textarea class="form-control" rows="5" id="comment"></textarea>
+</div>
+  </form>
+        <button type="button submit" class="btn btn-outline-primary">SUBMIT<i class="fa fa-paper-plane"></i></button>
+</div>
+  
+ </body>
+      
+    <footer class="text-center">
+        
+       <div class="scroll-top"><a class="button scrollable" href="#top"><i class="fa fa-chevron-up"></i></a>
+        </div>
+
+  <p>Written and coded by <a href="https://codepen.io/aukseallegra/" target="_blank">Allegra</a></p>
+
+</footer>
+          
+          
+</html>
